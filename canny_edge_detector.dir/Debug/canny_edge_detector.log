@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/Felipe/canny_edge_detector/CMakeLists.txt
+  Compiling CUDA source file canny_edge_detector.cu...
+  
+  C:\Users\Felipe\canny_edge_detector>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -IC:\Users\Felipe\canny_edge_detector -IC:\Users\Felipe\tiralib -IC:\Users\Felipe\canny_edge_detector\include -I"C:\Users\Felipe\vcpkg\installed\x86-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"     --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart shared -std=c++20 --generate-code=arch=compute_60,code=[compute_60,sm_60] --generate-code=arch=compute_70,code=[compute_70,sm_70] --generate-code=arch=compute_75,code=[compute_75,sm_75] --generate-code=arch=compute_80,code=[compute_80,sm_80] --generate-code=arch=compute_86,code=[compute_86,sm_86] -Xcompiler="/EHsc -Ob0 -Zi" -g  -D_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -DWIN32 -D_WINDOWS -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS -D"CMAKE_INTDIR=\"Debug\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdcanny_edge_detector.dir\Debug\vc143.pdb" -o canny_edge_detector.dir\Debug\/canny_edge_detector.cu.obj "C:\Users\Felipe\canny_edge_detector\canny_edge_detector.cu" 
+  canny_edge_detector.cu
+  tmpxft_00007e84_00000000-7_canny_edge_detector.compute_86.cudafe1.cpp
+  canny_edge_detector.cpp
+C:\Users\Felipe\canny_edge_detector\canny_edge_detector.cu(5,17): error C2065: 'threadIdx': undeclared identifier
+C:\Users\Felipe\canny_edge_detector\canny_edge_detector.cu(5,31): error C2065: 'blockIdx': undeclared identifier
+C:\Users\Felipe\canny_edge_detector\canny_edge_detector.cu(5,44): error C2065: 'blockDim': undeclared identifier
+C:\Users\Felipe\canny_edge_detector\canny_edge_detector.cu(34,26): error C2059: syntax error: '<'
+C:\Users\Felipe\canny_edge_detector\canny_edge_detector.cpp(14,5): error C2731: 'main': function cannot be overloaded
+C:\Users\Felipe\canny_edge_detector\canny_edge_detector.cpp(14): message : see declaration of 'main'

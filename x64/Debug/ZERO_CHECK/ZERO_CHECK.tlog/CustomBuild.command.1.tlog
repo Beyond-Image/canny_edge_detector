@@ -1,0 +1,10 @@
+^C:\USERS\FELIPE\CANNY_EDGE_DETECTOR\CMAKEFILES\D00BE1BF57E195B9F9EF557E4DE53509\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Felipe/canny_edge_detector -BC:/Users/Felipe/canny_edge_detector --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Felipe/canny_edge_detector/canny_edge_detector.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

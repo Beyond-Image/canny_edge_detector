@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Felipe\canny_edge_detector\CMakeFiles\d00be1bf57e195b9f9ef557e4de53509\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{21B08B33-A046-371C-9839-7A7DCD8C1465}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
